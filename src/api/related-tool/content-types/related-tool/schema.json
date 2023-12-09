@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "related_tools",
+  "info": {
+    "singularName": "related-tool",
+    "pluralName": "related-tools",
+    "displayName": "Related Tools",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    }
+  }
+}

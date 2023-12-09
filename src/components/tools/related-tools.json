@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_tools_related_tools",
+  "info": {
+    "displayName": "RelatedTools"
+  },
+  "options": {},
+  "attributes": {
+    "RelatedTools": {
+      "type": "string"
+    },
+    "tools": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tool.tool"
+    }
+  }
+}
